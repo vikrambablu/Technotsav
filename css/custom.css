@@ -1,0 +1,38 @@
+﻿@charset "UTF-8";
+/* CSS Document */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,700);
+body{font-family: 'Open Sans', sans-serif; margin:0px;  }
+.headder{background:#0CF;}
+.menu ul{padding:40px 0px;margin:0px;}
+.menu ul li{list-style:none;display:inline;}
+.menu ul li a{color:#000;text-decoration:none;}
+.menu ul li a:hover{color:#09F;}
+.menu .active{color:#FFF;}
+.nav_toggle{ background:#000;}
+.nav_toggle .icon-bar{background:#fff;}
+.navbar{ margin-bottom:0px !important; border:0px !important;}
+.menu1{width:auto !important;overflow:hidden}
+.container .row .email h1{font-size:15px;padding:0px 0px 0px 25px;margin:0px;font-weight:300;text-align:left;}
+.container .row .phone h1{font-size:15px;padding:0px 0px 0px 25px;margin:0px;font-weight:300;text-align:left;}
+.email{background:url("../images/mail.png") no-repeat;padding-right:0px;}
+.phone{background:url("../images/phone.png") no-repeat;padding-right:0px;}
+.buy h2 span{color:#0CF;}
+.buy h2{line-height:48px;font-size:42px;margin-top:15px;}
+.learn p{margin-top:15px;text-align:justify;}
+.learn1{background:url(../images/backgroung.jpg);}
+.learn1 h1{text-align:center;}
+.learn1 h2{text-align:center;}
+.learn1 p{color:#00b7ff;text-align:center;margin-top:15px;}
+.learn2 h4{font-size:42px;line-height:48px;margin-top:15px;}
+.learn2 h4 span{color:#0CF;}
+.learn2 p{margin-top:15px;text-align:justify;}
+.footer{background:#0CF;}
+.footer h3{font-size:12px;padding-top:5px;margin-top:5px;}
+@media (max-width: 768px){
+.email{display:none;}
+.phone{display:none;}
+.email h1{display:none;background:#0CF;}
+.phone h1{display:none;background:#0CF;}
+.logo h1{ text-align:center;}
+.menu{ padding:0px !important;}
+}
